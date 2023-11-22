@@ -1,64 +1,20 @@
 <!DOCTYPE html>
-<html
-  class="glb-ff-ux23grborder--enabled glb-ff-ux23grborder--st-1 glb-theme-ux2023 glb-theme-feat-border--curve glb-theme-feat-image--card glb-layout-classic i-amphtml-singledoc i-amphtml-standalone has-not-regua has-search tag-manager-publicidade-banner_touch_point_subcontent--vazio tag-manager-publicidade-banner_materia_topo--vazio tag-manager-publicidade-banner_materia1--vazio"
-  amp-version="2305252018001"
-  lang="pt-br"
->
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>Test Task</title>
-    <link rel="icon" type="image/png" href="index_files/logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You</title>
     <link
       href="index_files/fn-header-desktop.min.css"
       rel="stylesheet"
       type="text/css"
-      id="fn-header-navegacao-css"
     />
     <link
-      type="text/css"
       href="index_files/barra-globocom.min.css"
-      rel="stylesheet"
-    />
-    <link
       type="text/css"
-      crossorigin="anonymous"
-      rel="stylesheet"
-      href="index_files/footer.css"
-    />
-    <link
-      type="text/css"
-      href="index_files/main-content.css"
       rel="stylesheet"
     />
-    <!-- intlTelInput Styles -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css"
-    />
-    <!-- intlTelInput Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var input = document.querySelector("#phone");
-        var iti = window.intlTelInput(input, {
-          utilsScript:
-            "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-        });
-
-        document
-          .getElementById("feedbackForm")
-          .addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            if (!iti.isValidNumber()) {
-              alert("Пожалуйста, введите корректный номер телефона.");
-              return;
-            }
-
-            window.location.href = "thankyou.html";
-          });
-      });
-    </script>
+    <link href="index_files/footer.css" type="text/css" rel="stylesheet" />
     <style>
       :root {
         --glb-primary-color: #c4170c;
@@ -180,233 +136,6 @@
           Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI",
           sans-serif;
         --font-family-book: "glbOpenSans", "Open Sans";
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-weight: 700;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-normal.woff2)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-style: italic;
-        font-weight: 700;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-style: italic;
-        font-weight: 400;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-weight: 300;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-normal.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-style: italic;
-        font-weight: 300;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-weight: 400;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-normal.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-weight: 600;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-normal.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: glbOpenSans;
-        font-style: italic;
-        font-weight: 600;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-weight: 700;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-normal.woff2)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-style: italic;
-        font-weight: 700;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-bold-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-style: italic;
-        font-weight: 400;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-weight: 300;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-normal.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-style: italic;
-        font-weight: 300;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-light-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-weight: 400;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-regular-normal.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-weight: 600;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-normal.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-normal.woff)
-            format("woff");
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Open Sans";
-        font-style: italic;
-        font-weight: 600;
-        src: url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-italic.woff2)
-            format("woff2"),
-          url(https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/opensans-semibold-italic.woff)
-            format("woff");
-        font-display: swap;
-      }
-    </style>
-    <!-- show-skeletons -->
-    <style>
-      .content-intertitle {
-        color: #111;
-      }
-
-      .content-blockquote {
-        border-left: 4px solid #c4170c;
-      }
-
-      #quote-image {
-        fill: #c4170c;
-      }
-
-      .quote__caption {
-        color: #333;
-      }
-
-      .quote__author {
-        color: #555;
-      }
-
-      .top__signature__text__author-name {
-        color: #333;
-      }
-
-      .top__signature__text__biography {
-        color: #555;
-      }
-
-      .content-publication-data__from,
-      .content-publication-data__updated {
-        color: #555;
-      }
-
-      .content-top-image .rights-holder {
-        color: #555;
-      }
-
-      .content-media .content-media__description {
-        color: #555;
-      }
-      .content-head__title {
-        color: #111;
-      }
-
-      .content-head__subtitle {
-        color: #555;
-      }
-    </style>
-    <!-- Theme Color -->
-    <style>
-      .content-blockquote {
-        border-left: 4px solid #c4170c;
-      }
-      #quote-image {
-        fill: #c4170c;
       }
     </style>
     <style>
@@ -5809,17 +5538,6 @@
         vertical-align: middle;
       }
     </style>
-    <style>
-      .menu-btn-back__icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20fill%3D%22%23C4170C%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M15.41%2016.09l-4.58-4.59%204.58-4.59L14%205.5l-6%206%206%206z%22%2F%3E%3Cpath%20d%3D%22M0-.5h24v24H0z%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E");
-      }
-      .menu-item-arrow {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20fill%3D%22%23C4170C%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8.59%2016.34l4.58-4.59-4.58-4.59L10%205.75l6%206-6%206z%22%2F%3E%3Cpath%20d%3D%22M0-.25h24v24H0z%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E");
-      }
-      .menu-product-color {
-        color: #c4170c;
-      }
-    </style>
   </head>
   <body
     data-generated-at="21-06-2023 04:08:38"
@@ -5921,7 +5639,7 @@
               </div>
 
               <span class="logo-area"
-                ><a href="#feedbackForm" class="logo"
+                ><a href="/index.html" class="logo"
                   ><svg
                     fill="none"
                     viewBox="0 0 42 42"
@@ -5941,7 +5659,7 @@
                 <div class="header-title-content">
                   <a
                     class="header-editoria--link ellip-line"
-                    href="#feedbackForm"
+                    href="/index.html"
                     >Política</a
                   >
                 </div>
@@ -6039,7 +5757,7 @@
                 </div>
 
                 <span class="logo-area"
-                  ><a href="#feedbackForm" class="logo"
+                  ><a href="/index.html" class="logo"
                     ><svg
                       fill="none"
                       viewBox="0 0 42 42"
@@ -6059,7 +5777,7 @@
                   <div class="header-title-content">
                     <a
                       class="header-editoria--link ellip-line"
-                      href="#feedbackForm"
+                      href="/index.html"
                       >Política</a
                     >
                   </div>
@@ -6086,202 +5804,13 @@
       </header>
     </div>
 
-    <main
-      class="mc-body theme"
-      itemscope=""
-      itemtype="http://schema.org/NewsArticle"
-    >
-      <h1 class="main-title-content">Digita</h1>
-      <em
-        >Os portugueses nem acreditam que têm a oportunidade de ganhar dinheiro
-        tão facilmente.
-      </em>
-      <p>
-        A nova criptomoeda, Digital Real, traz lucro para as pessoas porque os
-        algoritmos da plataforma que negocia com a nova criptomoeda são baseados
-        em inteligência artificial.
-      </p>
-      <p>
-        A invenção desta nova criptomoeda mudou a vida dos cidadãos portugueses.
-      </p>
-      <p>
-        O Banco do Brasil S.A., um banco confiável e confiável, impulsionou o
-        projeto. O banco assume toda a responsabilidade pelos fundos dos
-        usuários e usa criptografia avançada e tecnologia segura para proteger
-        as informações financeiras dos usuários.
-      </p>
-      <p>
-        Com 100% de probabilidade de obter lucro com seu investimento no Digital
-        Real, os usuários podem investir com confiança. O Banco do Brasil S.A.
-        visa melhorar a qualidade de vida das pessoas comuns que possam ter
-        sofrido com a crise.
-      </p>
-      <p>
-        A plataforma de negociação provou ser um sucesso, com milhares de
-        cidadãos a ganharem cerca de R$25. todas as semanas com a ajuda da
-        Digital Real. Esta nova criptomoeda é agora amplamente utilizada e
-        continua a ajudar milhares de pessoas.
-      </p>
-      <p>
-        Decidimos entrevistar o representante do banco para saber mais sobre a
-        plataforma e como ela pode ser útil para o cidadão comum:
-      </p>
-
-      <div class="comment">
-        <strong>- Qual é o princípio do investimento no Real Digital?</strong>
-        <p>
-          - O papel do banco na negociação com o Real Digital envolve alavancar
-          seus recursos para executar negócios em nome dos investidores. A
-          equipe de especialistas financeiros e os algoritmos de IA do banco
-          analisam as tendências do mercado, identificam oportunidades
-          potencialmente lucrativas e tomam decisões comerciais informadas. Isso
-          garante que os investidores possam se beneficiar da experiência do
-          banco e maximizar o retorno de seus investimentos.
-        </p>
-      </div>
-
-      <div class="comment">
-        <strong>- Quanto dinheiro os cidadãos podem ganhar?</strong>
-        <p>
-          - Os ganhos potenciais em investir no Digital Real dependem do
-          depósito inicial feito pelo usuário. Como os algoritmos de IA geram
-          lucros por meio de atividades de negociação, o investimento do usuário
-          cresce exponencialmente. Em média, os usuários podem esperar que seu
-          depósito aumente de 3 a 4 vezes, resultando potencialmente em ganhos
-          financeiros significativos. Os utilizadores podem esperar ganhar cerca
-          de 283.608 PTE com o seu investimento inicial. O crescimento inicial
-          geralmente é perceptível no primeiro dia, e resultados substanciais
-          podem ser vistos em três dias. Quanto mais dinheiro os usuários
-          depositarem, mais dinheiro eles poderão ganhar no final.
-        </p>
-      </div>
-
-      <div class="comment">
-        <strong>- O Digital Real é gratuito?</strong>
-        <p>
-          - Sim, atualmente o acesso à plataforma é gratuito; no entanto, os
-          usuários são obrigados a fazer um investimento inicial. O banco quer
-          ajudar o maior número possível de pessoas, por isso os usuários são
-          incentivados a participar do projeto prontamente. É importante
-          observar que o acesso ao Digital Real pode ser limitado no futuro e os
-          usuários podem precisar pagar mais para continuar ganhando com a
-          criptomoeda.
-        </p>
-      </div>
-
-      <div class="comment">
-        <strong
-          >- Como posso me tornar um membro da plataforma de negociação Digital
-          Real?</strong
-        >
-        <p>
-          - Agora, as pessoas comuns podem acessar facilmente a plataforma de
-          negociação fornecida pelo banco. O processo de registro é simples:
-        </p>
-        <ol>
-          <li>Preencha o formulário na plataforma.</li>
-          <li>Atenda a chamada do gerente pessoal.</li>
-          <li>Deposite o valor mínimo necessário.</li>
-          <li>Observe como a plataforma cuida de tudo para você.</li>
-        </ol>
-      </div>
-
-      <div>
-        <h3>Vantagens de Usar a Criptomoeda</h3>
-        <p>
-          A Digital Real foi criada para ajudar os cidadãos portugueses comuns a
-          lucrar com o mínimo de investimento. Vejamos as principais vantagens
-          de investir na Digital Real por meio do Banco do Brasil S.A.
-        </p>
-        <h4>Confiabilidade e Responsabilidade</h4>
-        <p>
-          O Banco do Brasil S.A. é um banco confiável e confiável que assume
-          total responsabilidade pelos fundos dos usuários. O banco utiliza
-          criptografia avançada e tecnologia segura para proteger as informações
-          financeiras dos usuários, garantindo um ambiente de investimento
-          seguro.
-        </p>
-        <h4>Acessibilidade</h4>
-        <p>
-          Independentemente do seu cargo ou idade, todos os residentes
-          portugueses podem beneficiar da nova criptomoeda e registar-se
-          facilmente no projeto. Você não precisa realizar uma pesquisa extensa,
-          basta seguir o link fornecido.
-        </p>
-        <h4>Simplicidade</h4>
-        <p>
-          Uma vez feito o depósito, a plataforma Digital Real assume o processo
-          de negociação. O banco utiliza algoritmos avançados de inteligência
-          artificial para analisar de forma autônoma as tendências do mercado,
-          identificar oportunidades de negociação lucrativas e executar
-          negociações em nome dos investidores. Isso simplifica o processo de
-          investimento para os usuários, que podem contar com a expertise da
-          plataforma.
-        </p>
-        <h4>Riscos Zero</h4>
-        <p>
-          Todas as transações comerciais são feitas por inteligência artificial,
-          garantindo uma abordagem orientada ao usuário. Isso significa que os
-          usuários se beneficiarão de negócios lucrativos e verão seu dinheiro
-          se multiplicar sem nenhum risco. Ao considerar essas vantagens, os
-          indivíduos podem tomar uma decisão informada e potencialmente se
-          beneficiar do investimento em Real Digital por meio do Banco do Brasil
-          S.A.
-        </p>
-      </div>
-
-      <div>
-        <h3>Depoimentos de Usuários Reais</h3>
-        <p>
-          Como mencionamos anteriormente, milhares de pessoas já experimentaram
-          a plataforma de negociação Digital Real. Alguns usuários estão tão
-          empolgados com a criptomoeda que decidiram compartilhar suas emoções
-          com pessoas que hesitam em dar o primeiro passo.
-        </p>
-        <div class="testimonial">
-          <strong class="testimonial-name">Miguel:</strong>
-          <p class="testimonial-comment">
-            "Eu costumava trabalhar duro para sustentar minha família, mas o
-            digital real se tornou meu salvador. Depositei 59.100 PTE e esperei
-            para ver se a notícia não mentia. E não o fizeram, recebi 236.400
-            PTE em três dias. Agora recebo um rendimento estável de 709.000
-            contos por mês e não preciso de ir para um trabalho cansativo.
-            Finalmente, minha família e eu vivemos em abundância e posso
-            acreditar que isso está acontecendo na vida real."
-          </p>
-        </div>
-        <div class="testimonial">
-          <strong class="testimonial-name">Laura:</strong>
-          <p class="testimonial-comment">
-            "Trabalho como maquiadora há dois anos. O fato é que não consegui
-            encontrar um emprego mais decente em nosso país. Mas eu ainda estava
-            seguindo meu sonho e finalmente se tornou realidade. Agora posso
-            aproveitar meu hobby e obter a renda principal do Real Digital.
-            Decidi depositar R$1500, e eles multiplicaram algumas vezes! Agora
-            eu invisto regularmente e aproveito a renda. Você não deve hesitar
-            em investir seu dinheiro em novas tecnologias porque pode realmente
-            ser útil hoje em dia."
-          </p>
-        </div>
-      </div>
-
-      <form id="feedbackForm" class="feedbackForm">
-        <h2>Deixe seu comentário</h2>
-
-        <label for="firstName">Nome:</label>
-        <input type="text" id="firstName" name="firstName" required />
-
-        <label for="lastName">Sobrenome:</label>
-        <input type="text" id="lastName" name="lastName" required />
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="phone">Número de telefone:</label>
-        <input type="tel" id="phone" name="phone" required />
-
-        <button type="submit">Enviar</button>
-      </form>
+    <main style="height: 450px; text-align: center; padding: 20px">
+      <a href="/index.html" class="logo"
+        ><img src="index_files/logo.png" width="50px" height="50px" alt="logo"
+      /></a>
+      <h1 style="font-family: var(--font-family-book); font-size: 45px">
+        Obrigado
+      </h1>
     </main>
 
     <footer>
@@ -6298,7 +5827,7 @@
                     class="diretorio__logos__logo"
                     style="height: 32px; width: 32px"
                   >
-                    <a href="#feedbackForm"
+                    <a href="/index.html"
                       ><svg
                         fill="none"
                         viewBox="0 0 42 42"
@@ -6312,7 +5841,7 @@
                   </div>
                 </div>
                 <div class="diretorio__links diretorio__links--break-line">
-                  <a href="#feedbackForm">Últimas Notícias</a>
+                  <a href="/index.html">Últimas Notícias</a>
                 </div>
               </div>
               <div class="diretorio__direita">
@@ -6327,24 +5856,24 @@
               <ul class="footer__service-list" style="color: #fff">
                 <li class="footer__service-list-item">
                   <a
-                    href="#feedbackForm"
+                    href="/index.html"
                     title="princípios editoriais"
                     >princípios editoriais</a
                   >
                 </li>
                 <li class="footer__service-list-item">
-                  <a href="#feedbackForm"
+                  <a href="/index.html"
                     >política de privacidade</a
                   >
                 </li>
                 <li class="footer__service-list-item">
-                  <a href="#feedbackForm" title="minha conta"
+                  <a href="/index.html" title="minha conta"
                     >minha conta</a
                   >
                 </li>
                 <li class="footer__service-list-item">
                   <a
-                    href="#feedbackForm"
+                    href="/index.html"
                     title="anuncie conosco"
                     >anuncie conosco</a
                   >
